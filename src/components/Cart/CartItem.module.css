@@ -1,0 +1,45 @@
+.itemRow {
+  text-align: center;
+}
+
+.image {
+  width: 10%;
+}
+.image img {
+  width: 100%;
+}
+
+.name {
+  font-weight: 500;
+}
+.quantity,
+.price,
+.total,
+.remove {
+  width: 15%;
+  padding: 10px;
+}
+
+.price,
+.total {
+  color: #868e96;
+}
+.quantity div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity input {
+  margin: 0 10px;
+  width: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.remove svg,
+.quantity svg {
+  cursor: pointer;
+}

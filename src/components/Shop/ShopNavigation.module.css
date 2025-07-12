@@ -1,0 +1,31 @@
+.sideNav {
+  width: 25%;
+  min-width: 200px;
+}
+.sideNav h2 {
+  margin-block: 20px;
+}
+
+.sideNav p {
+  background-color: #f6f9f6;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 8px 16px;
+}
+
+.sideNav p:nth-child(2) {
+  background-color: black;
+  color: #fff;
+}
+
+.sideNav li {
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #868e96;
+
+  cursor: pointer;
+}
+
+.sideNav .active {
+  color: #e1c39b;
+}

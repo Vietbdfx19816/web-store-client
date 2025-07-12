@@ -1,0 +1,43 @@
+.navBar {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.navBrand {
+  position: absolute;
+}
+
+.navBarNav {
+  display: flex;
+  width: 100%;
+}
+
+.navBarNav li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navBarNav li:nth-child(2) {
+  margin-right: auto;
+}
+
+.navBarNav svg {
+  margin-right: 5px;
+  color: #868e96;
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.logout:hover {
+  text-decoration: underline;
+  color: #e1c39b;
+}
+
+.active {
+  color: #e1c39b;
+}

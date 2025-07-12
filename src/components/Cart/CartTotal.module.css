@@ -1,0 +1,44 @@
+.cartTotal {
+  background-color: #f8f9fa;
+  padding: 40px;
+  margin-left: 20px;
+  height: min-content;
+}
+
+.cartTotal h2 {
+  margin-bottom: 20px;
+}
+.subtotal,
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10px;
+}
+.subtotal {
+  border-bottom: 1px solid #868e96;
+}
+.subtotal p {
+  color: #868e96;
+}
+.subtotal h3 {
+  font-size: 16px;
+}
+
+.total {
+  margin-bottom: 20px;
+}
+.total p {
+  font-size: 20px;
+}
+
+.coupon input,
+.coupon button {
+  width: 100%;
+  padding: 10px;
+}
+
+.coupon input {
+  padding: 10px;
+  margin-bottom: 5px;
+}

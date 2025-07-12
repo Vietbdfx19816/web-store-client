@@ -1,0 +1,34 @@
+.image img {
+  width: 100%;
+}
+
+.image {
+  width: 50%;
+}
+
+.detail {
+  padding-left: 30px;
+  min-width: 300px;
+  width: 50%;
+}
+
+.detail h2 {
+  text-transform: none;
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.price {
+  color: #868e96;
+  font-size: 20px;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.hidden {
+  display: none;
+}

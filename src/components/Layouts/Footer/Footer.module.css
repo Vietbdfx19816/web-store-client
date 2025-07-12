@@ -1,0 +1,22 @@
+.footer {
+  background-color: #212529;
+  padding: 50px 10px;
+  font-style: italic;
+}
+.footerNav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footerNav li {
+  padding-bottom: 8px;
+}
+.footerNav a {
+  font-size: 14px;
+  color: #dee2e6;
+}
+.footerNav h2 {
+  color: #f1f3f5;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}

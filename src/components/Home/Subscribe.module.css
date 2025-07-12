@@ -1,0 +1,32 @@
+.service {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-block: 50px;
+  background-color: #f8f9fa;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 50px 80px;
+}
+
+.form {
+  display: flex;
+}
+
+.form input {
+  width: min(400px, 40vw);
+  padding: 10px;
+}
+
+.form button {
+  padding: 1rem;
+}
+
+.service p,
+.subscribe p {
+  color: #868e96;
+}

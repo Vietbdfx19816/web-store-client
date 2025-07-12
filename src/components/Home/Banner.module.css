@@ -1,0 +1,39 @@
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 250px;
+}
+
+.banner img {
+  min-height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bannerBg {
+  width: 100%;
+}
+.promotion {
+  max-width: 400px;
+  font-style: italic;
+  margin-left: max(8vw, 20px);
+}
+
+.promotion h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.promotion .subTitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #868e96;
+  margin-bottom: 8px;
+}
+
+.wrapper {
+  position: absolute;
+  width: min(1280px, 100%);
+}

@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.list {
+  padding-left: 24px;
+  width: 75%;
+}

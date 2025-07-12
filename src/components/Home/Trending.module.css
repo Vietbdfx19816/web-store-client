@@ -1,0 +1,15 @@
+.trending {
+  padding-block: 50px;
+}
+
+.subTitle {
+  font-style: italic;
+  text-transform: uppercase;
+  color: #868e96;
+  letter-spacing: 1px;
+}
+
+.title {
+  font-weight: 500;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,42 @@
+.table {
+  margin-bottom: 30px;
+  min-height: 30vh;
+}
+
+.table p {
+  padding: 10px;
+  text-align: center;
+}
+
+.orderInfo {
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.orderInfo p {
+  color: #868e96;
+}
+.orderInfo h1 {
+  margin-bottom: 20px;
+}
+
+.tableRow {
+  display: grid;
+  grid-template-columns: 1fr 200px 1fr 150px 120px;
+  align-items: center;
+}
+
+.tableBody p {
+  font-size: 14px;
+  color: #868e96;
+}
+.tableBody img {
+  width: 100%;
+  padding: 20px;
+}
+
+.tableHead {
+  background-color: #f8f9fa;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}

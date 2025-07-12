@@ -1,0 +1,33 @@
+.order {
+  padding: 30px;
+  background-color: #f8f9fa;
+  height: min-content;
+  margin-left: 20px;
+}
+.order h2 {
+  margin-bottom: 20px;
+}
+
+.detail,
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 10px;
+}
+
+.detail {
+  border-bottom: 1px solid #868e96;
+}
+
+.name {
+  width: 55%;
+  font-weight: 500;
+}
+.price {
+  color: #868e96;
+}
+
+.total p {
+  font-size: 20px;
+}

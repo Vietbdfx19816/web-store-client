@@ -1,0 +1,36 @@
+.categories {
+  text-align: center;
+
+  padding-block: 50px;
+  background-color: #f7f5f7;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  gap: 30px;
+  padding-inline: 30px;
+}
+
+.categories img:hover {
+  filter: opacity(0.7);
+}
+
+.subTitle {
+  text-transform: uppercase;
+  font-style: italic;
+  color: #868e96;
+  letter-spacing: 1px;
+}
+.title {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.wrapper div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,46 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #f8f9fa;
+  height: 50px;
+  text-transform: uppercase;
+}
+.table th {
+  font-weight: 500;
+}
+.empty {
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+}
+
+.navigate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 20px;
+  line-height: 1;
+}
+
+.checkout,
+.shopping {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.checkout {
+  border: 1px solid #000;
+}
+
+.checkout svg {
+  margin-left: 8px;
+}
+
+.shopping svg {
+  margin-right: 8px;
+}

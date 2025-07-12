@@ -1,0 +1,50 @@
+.wrapper {
+  margin: 20px auto;
+  width: min(450px, 90%);
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  box-shadow: 0px 0px 12px 0px #ced4da;
+  color: #868e96;
+}
+
+.wrapper h1 {
+  margin-bottom: 30px;
+  text-transform: none;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.wrapper input {
+  width: 100%;
+  padding: 20px;
+  border: 1.5px solid #ced4da;
+  border-top: none;
+  outline: none;
+}
+.wrapper input:first-child {
+  border-top: 1.5px solid #ced4da;
+}
+
+.action button {
+  font-style: italic;
+  text-transform: uppercase;
+  width: 100%;
+  padding-block: 20px;
+  margin-block: 16px 30px;
+}
+
+.action span {
+  cursor: pointer;
+  color: #1c7ed6;
+}
+
+.error {
+  color: red;
+  padding-bottom: 20px;
+}
+
+.success {
+  color: green;
+  padding-bottom: 20px;
+}
