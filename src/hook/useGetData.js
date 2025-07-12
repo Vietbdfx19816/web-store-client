@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect } from 'react';
 import axios from 'axios';
 
 export const instance = axios.create({
-  baseURL: 'http://localhost:5000/api/',
+  baseURL: 'https://web-store-server-c0dc.onrender.com/api/',
   withCredentials: true,
 });
 
