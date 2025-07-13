@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { io } from 'socket.io-client';
 import { getLocalRoomId, setLocalRoomId } from '../store/localStorage';
 
-const socket = io('https://web-store-server-c0dc.onrender.com/chat', {
+const socket = io('https://web-store-server.vercel.app/chat', {
   withCredentials: true,
   autoConnect: false,
   auth: {

@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect } from 'react';
 import axios from 'axios';
 
 export const instance = axios.create({
-  baseURL: 'https://web-store-server-c0dc.onrender.com/api/',
+  baseURL: 'https://web-store-server.vercel.app/api/',
   withCredentials: true,
 });
 
