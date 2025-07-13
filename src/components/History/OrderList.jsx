@@ -63,7 +63,7 @@ export default OrderList;
 
 export const loader = async function () {
   try {
-    const res = await instance.get('user/orders');
+    const res = await instance.get('/user/orders', { withCredentials: true });
 
     return res.data;
   } catch (error) {

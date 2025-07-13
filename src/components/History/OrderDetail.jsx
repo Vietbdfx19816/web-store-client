@@ -63,7 +63,7 @@ export const loader = async function ({ params }) {
   const orderId = params.orderId;
 
   try {
-    const res = await instance.get(`user/order/${orderId}`);
+    const res = await instance.get(`/user/order/${orderId}`);
 
     return res.data;
   } catch (error) {
